@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="girls.html">USER GUIDE</a>
+        <a href="form.html">ILLNESS</a>
+    </div>
+    <h2 style="margin-top: 50px;">Fill This Form To Analyze your Health Condition</h2>
+    <div class="container" >
+        <form action="pcod.html">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname"><b>First Name</b></label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname"><b>Last Name</b></label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="country"><b>Age</b></label>
+            </div>
+            <div class="col-75">
+              <select id="Name" name="Name">
+                <option value="australia">Age</option>
+                <option value="canada">18-45</option>
+                <option value="usa">45+</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject"><b>You are suffering with:</b></label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                  <label for="subject"><b>Symptoms:</b></label>
+                </div>
+                <div class="col-75">
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+                </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject"><b>Any of your family members has faced this:</b></label>
+            </div><br>
+            <div class="col-75">
+              <input type="checkbox" id="1">Yes<br>
+              <input type="checkbox" id="1">No
+            </div>
+      </div><br>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject"><b>Any other Complications you have:</b></label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:75px"></textarea>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                  <label for="country"><b>Since how much time you are facing this??</b></label>
+                </div>
+                <div class="col-75">
+                  <select id="Name" name="Name">
+                    <option value="australia">Timeperiod</option>
+                    <option value="canada"><=1 Month</option>
+                    <option value="usa">3 months</option>
+                    <option value="usa">6 months</option>
+                    <option value="usa"><=1 Year</option>
+                    <option value="usa">>=1 Year</option>
+                  </select>
+                </div>
+              </div><br>
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+   </body>
+</html>

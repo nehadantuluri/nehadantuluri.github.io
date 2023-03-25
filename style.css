@@ -1,0 +1,91 @@
+body{
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    height:100vh;
+    justify-content: center;
+    background:url("https://images.unsplash.com/photo-1506784693919-ef06d93c28d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MzB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=60");
+    background-size: cover;
+    overflow: hidden;
+}
+.bt{
+    display:flex;
+    margin-left: 200px;
+}
+.bt div{
+    margin:20px;
+    position:relative;
+}
+.bt span{
+    height:150px;
+    width:120px;
+    background-color: darkslategray;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0);
+    opacity:.8;
+} 
+.bt .text{
+    height:30px;
+    font-size:10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color:darkseagreen;
+    opacity: 0.8;
+}
+.bt a{
+    text-decoration: none;
+    color:white;
+}
+
+.topnav {
+        overflow: hidden;
+        background-color:darkslategrey;
+        position: fixed;
+        top: 0;
+        width: 100%;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: darkseagreen;
+    color: black;
+  }
+  .topnav-right {
+    float: right;
+  }
+  
+  .flicker {
+    font-size: 6rem;
+    font-family: 'Merienda', sans-serif;
+    margin: 1rem auto;
+    color:#fffefe61;
+    background: -webkit-gradient(linear, left top, right top, from(#e6e6e6), to(#1d1c1c), color-stop(0.8, #0a5923)) no-repeat;
+    background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.8, #fff)) no-repeat;
+    background-size: 110px 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: flick 2.5s infinite;
+  }
+  @keyframes flick {
+    0% {
+      background-position: top left;
+    }
+    100% {
+      background-position: top right;
+    }
+  }
+.nav{
+  margin-left: 150px;
+}

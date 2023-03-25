@@ -1,0 +1,24 @@
+h2{
+    color:darkseagreen;
+    margin-left: 450px;
+    margin-right: 400px;
+}
+h3{
+    color:white;
+    margin-left: 450px;
+    margin-right: 400px;
+}
+body{
+    background-color: darkslategray;
+}
+h4{
+    color:white;
+}
+img{
+    margin-left: 300px;
+    margin-right: 400px;
+    border-radius: 100px;
+}
+a{
+    text-decoration: none;
+}
